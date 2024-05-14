@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.header{
+    width: 1500px;
+    background: #FFFFFF;
+    padding: 8px 100px;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__logo{
+    transition: 0.5s;
+}
+.navbar__logo:hover{
+    transform: scale(1.05);
+}
+.navbar__categories {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 50px;
+}
+.navbar__category{
+    color: #000000;
+    opacity: 0.6;
+}
+.navbar__category:hover{
+    cursor: pointer;
+    color: brown;
+}
+.navbar__btn{
+    padding: 5px 9px;
+    background: transparent;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+}
+.navbar__btn:hover{
+    cursor: pointer;
+    color: brown;
+}
+.wrapper{
+    width: 500px;
+    background: #FFFFFF;
+    margin:  0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #0002;
+}
+.container{
+    width: 450px;
+    padding: 40px 40px;
+    margin: 0 auto;
+}
+.wrapper__logo{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 25px 0;
+    transition: 0.5s;
+}
+.wrapper__logo:hover{
+    transform: scale(1.05);
+}
+.wrapper__title{
+    text-align: center;
+    margin-bottom: 56px;
+}
+.wrapper__title h2{
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.title__text{
+    color: #444150;
+    opacity: 0.9;
+}
+.wrapper__title a{
+    font-weight: 600;
+    color: #01BAB3;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0;
+    gap: 8px;
+}
+.input__content{
+    font-weight: 600;
+}
+.email__input{
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    padding: 12px 16px;
+    transition: 0.5s;
+}
+.email__input:hover{
+    border: 1px solid #01BAB3;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.tel{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0;
+    gap: 8px;
+}
+.tel__input{
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    padding: 12px 16px;
+    transition: 0.5s;
+}
+.tel__input:hover{
+    border: 1px solid #01BAB3;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.input{
+    display: flex;
+    gap: 16px;
+}
+.country__name{
+    width: 200px;
+}
+.country__box{
+    color: #444150; 
+    font-weight: 600; 
+    padding: 12px 16px;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    transition: 0.5s;
+    margin-top: 8px;
+}
+.country__box:hover{
+    border: 1px solid #01BAB3;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.city__box{
+    color: #444150; 
+    opacity: 0.8; 
+    padding: 12px 16px;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    transition: 0.5s;
+    margin-top: 8px;
+}
+.city__box:hover{
+    border: 1px solid #01BAB3;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0;
+    gap: 8px;
+}
+.password__input{
+    border: 1px solid red;
+    border-radius: 6px;
+    padding: 12px 16px;
+    transition: 0.5s;
+}
+.password__input:hover{
+    border: 1px solid #01BAB3;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.btn__link{
+    width: 100%;
+    padding: 12px 0;
+    background: #01BAB3;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    transition: .5s;
+}
+.btn__link:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.btn__text{
+    color: #FFFFFF;
+}
+.wrapper__bottom{
+    width: 360px;
+    font-size: 14px;
+    color: #778699;
+    text-align: center;
+    margin-top: 24px;
+    /* margin: 24px 100px; */
+}
